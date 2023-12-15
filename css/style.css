@@ -10,6 +10,33 @@ img {
   display: block;
 }
 
+/*NAV*/
+nav ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  align-items: center;
+  justify-content: space-evenly;
+}
+nav li {
+  color: black;
+  text-decoration: none;
+}
+nav a {
+  color: black;
+  text-decoration: none;
+  display: inline-block;
+}
+nav a:link {
+  text-decoration: none;
+}
+nav a:hover,
+nav a:active,
+nav li.active a {
+  text-decoration: underline;
+}
+/*NAV*/
+
 /*BURGER-MENU*/
 .burger-menu {
   display: none;
@@ -45,6 +72,7 @@ img {
   transform: rotate(45deg) translate(-14px, -7px);
 }
 /*BURGER-MENU*/
+
 @media (max-width: 800px) {
   .burger-menu {
     display: flex;
