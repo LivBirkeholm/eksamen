@@ -23,14 +23,14 @@ nav ul {
   justify-content: space-evenly;
 }
 nav li {
-  color: black;
+  color: rgb(113, 113, 113);
   text-decoration: none;
   font-family: "DM Sans", sans-serif;
   font-size: 20px;
   margin-right: 15px;
 }
 nav a {
-  color: black;
+  color: rgb(113, 113, 113);
   text-decoration: none;
   display: inline-block;
 }
@@ -40,7 +40,7 @@ nav a:link {
 nav a:hover,
 nav a:active,
 nav li.active a {
-  text-decoration: underline;
+  color: black;
 }
 /*NAV*/
 
@@ -52,7 +52,7 @@ nav li.active a {
   padding-left: 30px;
 }
 .bar {
-  background-color: #2a2f64;
+  background-color: rgb(44, 44, 44);
   margin: 3px 0;
   transition: 0.4s;
   width: 30px;
@@ -65,7 +65,7 @@ nav li.active a {
 .close-icon .bar {
   width: 35px;
   height: 3px;
-  background-color: #2a2f64;
+  background-color: rgb(44, 44, 44);
   margin: 2px 0;
   transition: 0.4s;
 }
@@ -107,9 +107,10 @@ footer {
   text-align: center;
   justify-content: space-between;
   font-family: "DM Sans", sans-serif;
+  color: rgb(113, 113, 113);
 }
 .linkedin {
-  color: rgb(44, 44, 44);
+  color: rgb(113, 113, 113);
 }
 .logo {
   text-align: center;
