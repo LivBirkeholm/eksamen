@@ -108,7 +108,7 @@ nav li.active a {
 
 footer {
   text-align: center;
-  justify-content: space-between;
+  padding-top: 100px;
   font-family: "DM Sans", sans-serif;
   color: rgb(113, 113, 113);
 }
