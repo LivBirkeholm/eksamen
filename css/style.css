@@ -95,8 +95,11 @@ nav li.active a {
 
 footer {
   text-align: center;
-  padding-top: 100px;
+  justify-content: space-between;
   font-family: "DM Sans", sans-serif;
+}
+.linkedin {
+  color: rgb(44, 44, 44);
 }
 .logo {
   text-align: center;
