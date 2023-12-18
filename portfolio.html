@@ -6,6 +6,12 @@
     <meta name="robots" content="noindex">
     <meta name="description" content="Portfolio eksamen">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/portfolio.css">
     <title>Portfolio</title>
@@ -17,17 +23,27 @@
             <h1><a href="index.html">PORTFOLIO</a></h1>
         </div>
         <nav class="nav">
-            <ul>
+            <div class="burger-menu">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <ul class="burger-menu-content">
                 <li><a href="index.html">HJEM</a></li>
                 <li><a href="om_mig.html">OM MIG</a></li>
                 <li class="active"><a href="portfolio.html">PORTFOLIO</a></li>
             </ul>
+            <div class="close-icon">
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
         </nav>
     </header>
 
     <main></main>
 
     <footer>Liv Birkeholm // Portfolioeksamen</footer>
+    <script src="javascript/burgermenu.js"></script>
 </body>
 
 </html>
