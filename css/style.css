@@ -84,10 +84,9 @@ nav li.active a {
   .nav.active ul {
     display: flex;
     flex-direction: column;
-    top: 60px;
-    right: 0;
     list-style: none;
-    border-radius: 10px;
+    padding-left: 20px;
+    padding-top: 20px;
   }
   .nav.active ul li {
     padding: 10px;
