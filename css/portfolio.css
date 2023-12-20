@@ -20,15 +20,22 @@
     padding-right: 10%;
   }
 }
-a p {
+.tema_2,
+.tema_3,
+.tema_4,
+.tema_5 {
   text-align: center;
-  padding-top: 20px;
+}
+
+.tema_tekst {
   font-family: "DM Sans", sans-serif;
   font-size: 18px;
-  color: rgb(78, 78, 78);
+  color: rgb(113, 113, 113);
   font-weight: bolder;
+  text-decoration: none;
+  padding-top: 15px;
+  display: block;
 }
-a:hover,
-a:active {
-  color: rgb(78, 78, 78);
+.tema_tekst:hover {
+  color: black;
 }
