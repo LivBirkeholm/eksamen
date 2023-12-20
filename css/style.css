@@ -87,6 +87,7 @@ nav li.active a {
 @media (max-width: 800px) {
   .burger-menu {
     display: flex;
+    padding-top: 20px;
   }
   nav {
     flex-direction: column;
@@ -116,11 +117,15 @@ footer {
 }
 .linkedin {
   color: rgb(113, 113, 113);
+  text-decoration: none;
+}
+.linkedin:hover {
+  text-decoration: underline;
 }
 nav .logo a {
   color: rgb(44, 44, 44);
   text-decoration: none;
   text-align: center;
   font-family: "Poppins", sans-serif;
-  font-size: 70px;
+  font-size: 65px;
 }
