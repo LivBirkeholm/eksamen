@@ -56,7 +56,7 @@ h4 {
   color: rgb(78, 78, 78);
   line-height: 30px;
 }
-li {
+.cv li {
   color: rgb(78, 78, 78);
   font-family: "DM Sans", sans-serif;
   list-style: inside;
