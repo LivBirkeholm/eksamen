@@ -1,0 +1,102 @@
+@media (min-width: 800px) {
+  .grid_1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 70px;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-top: 2%;
+  }
+}
+@media (max-width: 800px) {
+  .grid_1-1 {
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-top: 2%;
+  }
+  h1 {
+    padding-top: 30px;
+  }
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+  color: rgb(44, 44, 44);
+  padding-bottom: 15px;
+}
+h2 {
+  font-family: "DM Sans", sans-serif;
+  color: rgb(44, 44, 44);
+  padding-bottom: 15px;
+  padding-top: 60px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bolder;
+}
+h3 {
+  font-family: "DM Sans", sans-serif;
+  color: rgb(44, 44, 44);
+  font-size: 20px;
+}
+h4 {
+  font-family: "DM Sans", sans-serif;
+  color: rgb(44, 44, 44);
+  font-size: 18px;
+  padding-top: 20px;
+}
+.grid_1-1 p {
+  font-family: "DM Sans", sans-serif;
+  font-size: 18px;
+  color: rgb(78, 78, 78);
+  line-height: 30px;
+}
+.cv p {
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  color: rgb(78, 78, 78);
+  line-height: 30px;
+}
+li {
+  color: rgb(78, 78, 78);
+  font-family: "DM Sans", sans-serif;
+  list-style: inside;
+  padding-left: 15px;
+  font-size: 16px;
+  line-height: 30px;
+}
+img {
+  border-radius: 20px;
+}
+.cv {
+  margin-top: 5%;
+  margin-left: 8%;
+  margin-right: 8%;
+  padding-bottom: 50px;
+  border-style: solid;
+  border-color: white;
+  border-radius: 20px;
+  background-color: white;
+}
+.info,
+.om_mig,
+.uddannelse,
+.kompetencer,
+.sprog,
+.erfaring {
+  padding-top: 30px;
+  padding-left: 8%;
+  padding-right: 8%;
+}
+.info_h3,
+.om_mig_h3,
+.uddannelse_h3,
+.kompetencer_h3,
+.sprog_h3,
+.erfaring_h3 {
+  text-decoration: underline;
+  font-size: 21px;
+  padding-bottom: 10px;
+}
+.erfaring_h3 {
+  text-align: center;
+}
