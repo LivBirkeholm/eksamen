@@ -8,3 +8,8 @@
 .tilbage a:hover {
   color: black;
 }
+h1 {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  color: rgb(113, 113, 113);
+}

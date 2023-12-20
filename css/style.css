@@ -117,12 +117,10 @@ footer {
 .linkedin {
   color: rgb(113, 113, 113);
 }
-.logo {
-  text-align: center;
-  font-family: "Poppins", sans-serif;
-  font-size: 45px;
-}
 nav .logo a {
   color: rgb(44, 44, 44);
   text-decoration: none;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 70px;
 }
