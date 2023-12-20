@@ -44,7 +44,6 @@ nav a:link {
   text-decoration: none;
 }
 nav a:hover,
-nav a:active,
 nav li.active a {
   color: black;
 }
@@ -55,7 +54,6 @@ nav li.active a {
   display: none;
   flex-direction: column;
   cursor: pointer;
-  padding-left: 30px;
 }
 .bar {
   background-color: rgb(44, 44, 44);
