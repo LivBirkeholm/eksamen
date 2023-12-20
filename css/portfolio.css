@@ -4,14 +4,12 @@
   gap: 60px;
   padding-top: 30px;
 }
-
 @media (min-width: 800px) {
   .grid_1-1-1-1 {
     padding-left: 10%;
     padding-right: 10%;
   }
 }
-
 @media (max-width: 800px) {
   .grid_1-1-1-1 {
     display: grid;
@@ -20,15 +18,14 @@
     padding-right: 10%;
   }
 }
-p {
+
+a p,
+a:hover,
+a:active {
   text-align: center;
   padding-top: 20px;
   font-family: "DM Sans", sans-serif;
   font-size: 18px;
   color: rgb(78, 78, 78);
   font-weight: bolder;
-}
-a:hover,
-a:active {
-  color: rgb(78, 78, 78);
 }
