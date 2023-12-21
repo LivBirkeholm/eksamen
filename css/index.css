@@ -16,3 +16,6 @@
   font-size: 25px;
   text-decoration: none;
 }
+.forside_tekst a:hover {
+  color: rgb(44, 44, 44);
+}
