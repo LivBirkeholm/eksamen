@@ -1,26 +1,30 @@
-.grid_1-1-1-1 {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  gap: 50px;
-  padding-top: 30px;
-}
-
 @media (min-width: 800px) {
-  .grid_1-1-1-1 {
-    padding-left: 15%;
-    padding-right: 15%;
-  }
-}
-
-@media (max-width: 800px) {
-  .grid_1-1-1-1 {
+  .grid_1-1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 80px;
+    padding-top: 30px;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+}
+@media (max-width: 800px) {
+  .grid_1-1 {
     padding-left: 10%;
     padding-right: 10%;
   }
 }
 
+.tema2_img,
+.tema3_img,
+.tema4_img,
+.tema5_img {
+  border-style: solid;
+  border-color: white;
+  border-radius: 20px;
+  background-color: white;
+  padding: 25px;
+}
 .tema_2,
 .tema_3,
 .tema_4,
@@ -31,11 +35,11 @@
 .tema_3:hover,
 .tema_4:hover,
 .tema_5:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 .tema_tekst {
   font-family: "DM Sans", sans-serif;
-  font-size: 16px;
+  font-size: 20px;
   color: rgb(113, 113, 113);
   font-weight: bolder;
   text-decoration: none;
