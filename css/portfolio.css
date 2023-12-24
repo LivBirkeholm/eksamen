@@ -31,10 +31,10 @@
 .tema_5 {
   text-align: center;
 }
-.tema_2:hover,
-.tema_3:hover,
-.tema_4:hover,
-.tema_5:hover {
+.tema2_img:hover,
+.tema3_img:hover,
+.tema4_img:hover,
+.tema5_img:hover {
   transform: scale(1.05);
 }
 .tema_tekst {

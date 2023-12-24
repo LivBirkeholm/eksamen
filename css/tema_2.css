@@ -12,4 +12,37 @@ h1 {
   text-align: center;
   font-family: "Poppins", sans-serif;
   color: rgb(78, 78, 78);
+  font-size: 40px;
+}
+.grid_1-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 60px;
+  margin-left: 8%;
+  margin-right: 8%;
+  gap: 10px;
+}
+img {
+  padding-bottom: 50px;
+  width: 90%;
+}
+h2 {
+  font-family: "Poppins", sans-serif;
+  color: rgb(78, 78, 78);
+  padding-top: 60px;
+  padding-bottom: 5px;
+}
+p,
+p a {
+  font-family: "DM Sans", sans-serif;
+  color: rgb(113, 113, 113);
+  font-size: 18px;
+  line-height: 30px;
+}
+p a:hover {
+  color: rgb(44, 44, 44);
+}
+.tekst {
+  margin-left: 8%;
+  margin-right: 8%;
 }
