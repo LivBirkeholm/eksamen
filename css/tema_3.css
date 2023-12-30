@@ -25,21 +25,25 @@ h2 {
   padding-top: 70px;
   font-size: 30px;
 }
-.grid_1-1 h3 {
+h3 {
   font-family: "Poppins", sans-serif;
   color: rgb(78, 78, 78);
+}
+.grid_1-1 h3 {
   padding-top: 40px;
 }
 .grid_1-1-1-1 h3 {
-  font-family: "Poppins", sans-serif;
-  color: rgb(78, 78, 78);
   text-align: center;
 }
-p {
+p,
+li {
   font-family: "DM Sans", sans-serif;
   color: rgb(113, 113, 113);
   font-size: 18px;
   line-height: 30px;
+}
+li {
+  list-style: inside;
 }
 .grid_1-1 {
   display: grid;
@@ -51,12 +55,6 @@ p {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   padding-top: 10px;
   gap: 30px;
-}
-.digital_prototype h3 {
-  padding-top: 30px;
-  padding-bottom: 10px;
-  font-family: "Poppins", sans-serif;
-  color: rgb(78, 78, 78);
 }
 .grid_1-1 img,
 .grid_1-1-1-1 img {
