@@ -1,3 +1,7 @@
+main {
+  margin-left: 8%;
+  margin-right: 8%;
+}
 .tilbage a {
   padding-left: 60px;
   color: rgb(113, 113, 113);
@@ -27,16 +31,12 @@ h2 {
   .grid_1-1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin-left: 8%;
-    margin-right: 8%;
     gap: 50px;
     padding-top: 50px;
   }
 }
 @media (max-width: 800px) {
   .grid_1-1 {
-    margin-left: 8%;
-    margin-right: 8%;
     gap: 50px;
     padding-top: 50px;
   }

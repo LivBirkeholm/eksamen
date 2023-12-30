@@ -1,3 +1,7 @@
+main {
+  margin-left: 8%;
+  margin-right: 8%;
+}
 .tilbage a {
   padding-left: 60px;
   color: rgb(113, 113, 113);
@@ -13,4 +17,63 @@ h1 {
   font-family: "Poppins", sans-serif;
   color: rgb(78, 78, 78);
   font-size: 40px;
+}
+h2 {
+  font-family: "Poppins", sans-serif;
+  color: rgb(78, 78, 78);
+  padding-top: 70px;
+  font-size: 28px;
+}
+h3 {
+  font-family: "Poppins", sans-serif;
+  color: rgb(78, 78, 78);
+}
+
+@media (min-width: 800px) {
+  .grid_1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    padding-top: 30px;
+  }
+  .overskrift {
+    text-align: center;
+    padding-top: 10px;
+    color: rgb(113, 113, 113);
+  }
+}
+@media (max-width: 800px) {
+  .emne,
+  .video {
+    padding-top: 20px;
+  }
+  .statemachine {
+    padding-top: 70px;
+  }
+}
+
+p {
+  font-family: "DM Sans", sans-serif;
+  color: rgb(113, 113, 113);
+  font-size: 18px;
+  line-height: 30px;
+}
+.pitch {
+  padding-top: 20px;
+}
+span {
+  font-weight: 700;
+}
+.overskrift {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  color: rgb(113, 113, 113);
+}
+.analyse {
+  padding-top: 30px;
+}
+.diagrammer {
+  padding-top: 50px;
+  gap: 60px;
 }
