@@ -1,3 +1,8 @@
+main {
+  margin-left: 8%;
+  margin-right: 8%;
+}
+
 .tilbage a {
   padding-left: 60px;
   color: rgb(113, 113, 113);
@@ -13,4 +18,47 @@ h1 {
   font-family: "Poppins", sans-serif;
   color: rgb(78, 78, 78);
   font-size: 40px;
+}
+h2 {
+  font-family: "Poppins", sans-serif;
+  color: rgb(78, 78, 78);
+  padding-top: 70px;
+  font-size: 30px;
+}
+.grid_1-1 h3 {
+  font-family: "Poppins", sans-serif;
+  color: rgb(78, 78, 78);
+  padding-top: 40px;
+}
+.grid_1-1-1-1 h3 {
+  font-family: "Poppins", sans-serif;
+  color: rgb(78, 78, 78);
+  text-align: center;
+}
+p {
+  font-family: "DM Sans", sans-serif;
+  color: rgb(113, 113, 113);
+  font-size: 18px;
+  line-height: 30px;
+}
+.grid_1-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+.grid_1-1-1-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding-top: 10px;
+  gap: 30px;
+}
+.digital_prototype h3 {
+  padding-top: 30px;
+  padding-bottom: 10px;
+  font-family: "Poppins", sans-serif;
+  color: rgb(78, 78, 78);
+}
+.grid_1-1 img,
+.grid_1-1-1-1 img {
+  padding-top: 40px;
 }

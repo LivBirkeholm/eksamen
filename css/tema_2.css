@@ -14,14 +14,24 @@ h1 {
   color: rgb(78, 78, 78);
   font-size: 40px;
 }
-.grid_1-1 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  padding-top: 60px;
-  margin-left: 8%;
-  margin-right: 8%;
-  gap: 10px;
+@media (min-width: 800px) {
+  .grid_1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 60px;
+    margin-left: 8%;
+    margin-right: 8%;
+    gap: 10px;
+  }
 }
+@media (max-width: 800px) {
+  .grid_1-1 {
+    margin-left: 8%;
+    margin-right: 8%;
+    padding-top: 60px;
+  }
+}
+
 img {
   padding-bottom: 50px;
   width: 90%;
