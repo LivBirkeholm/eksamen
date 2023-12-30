@@ -59,10 +59,12 @@ li {
 .emne li {
   list-style: inside;
 }
-.grid_1-1 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 30px;
+@media (min-width: 800px) {
+  .grid_1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+  }
 }
 .grid_1-1-1-1 {
   display: grid;
