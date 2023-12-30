@@ -24,10 +24,14 @@ h2 {
   color: rgb(78, 78, 78);
   padding-top: 70px;
   font-size: 30px;
+  text-decoration: underline;
 }
 h3 {
   font-family: "Poppins", sans-serif;
   color: rgb(78, 78, 78);
+}
+.titel {
+  padding-top: 30px;
 }
 .grid_1-1 h3 {
   padding-top: 40px;
@@ -40,9 +44,19 @@ li {
   font-family: "DM Sans", sans-serif;
   color: rgb(113, 113, 113);
   font-size: 18px;
+  line-height: 35px;
+}
+.grid_1-1 a {
+  font-family: "DM Sans", sans-serif;
+  color: rgb(113, 113, 113);
+  font-size: 18px;
   line-height: 30px;
 }
-li {
+.grid_1-1 a:hover {
+  color: rgb(44, 44, 44);
+}
+.grid_1-1 li,
+.emne li {
   list-style: inside;
 }
 .grid_1-1 {
