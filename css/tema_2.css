@@ -14,6 +14,25 @@ h1 {
   font-size: 40px;
   padding-bottom: 40px;
 }
+h2 {
+  font-family: "Poppins", sans-serif;
+  color: rgb(78, 78, 78);
+  padding-top: 40px;
+  padding-bottom: 5px;
+}
+p,
+p a {
+  font-family: "DM Sans", sans-serif;
+  color: rgb(113, 113, 113);
+  font-size: 18px;
+  line-height: 30px;
+}
+p a:hover {
+  color: rgb(44, 44, 44);
+}
+.tekst {
+  padding-top: 40px;
+}
 
 @media (min-width: 800px) {
   .grid_1-1 {
@@ -32,22 +51,6 @@ h1 {
 .grid_1-1 img {
   padding-bottom: 50px;
   width: 90%;
-}
-h2 {
-  font-family: "Poppins", sans-serif;
-  color: rgb(78, 78, 78);
-  padding-top: 40px;
-  padding-bottom: 5px;
-}
-p,
-p a {
-  font-family: "DM Sans", sans-serif;
-  color: rgb(113, 113, 113);
-  font-size: 18px;
-  line-height: 30px;
-}
-p a:hover {
-  color: rgb(44, 44, 44);
 }
 .introtekst {
   border-style: solid;

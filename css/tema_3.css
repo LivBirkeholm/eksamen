@@ -26,12 +26,7 @@ h3 {
 }
 .titel {
   padding-top: 30px;
-}
-.grid_1-1 h3 {
-  padding-top: 40px;
-}
-.grid_1-1-1-1 h3 {
-  text-align: center;
+  padding-bottom: 20px;
 }
 p,
 li {
@@ -40,6 +35,24 @@ li {
   font-size: 18px;
   line-height: 35px;
 }
+
+.mindmap,
+.moodboard,
+.styletile,
+.storyboard,
+.wireframes,
+.prototype {
+  padding-top: 70px;
+}
+.praesentation {
+  padding-top: 40px;
+}
+.observation,
+.interview {
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
 .grid_1-1 a {
   font-family: "DM Sans", sans-serif;
   color: rgb(113, 113, 113);
@@ -59,16 +72,6 @@ li {
     grid-template-columns: 1fr 1fr;
     gap: 30px;
   }
-}
-.grid_1-1-1-1 {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  padding-top: 10px;
-  gap: 30px;
-}
-.grid_1-1 img,
-.grid_1-1-1-1 img {
-  padding-top: 40px;
 }
 .introtekst {
   border-style: solid;
