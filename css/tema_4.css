@@ -58,6 +58,15 @@ p {
   font-size: 18px;
   line-height: 30px;
 }
+a {
+  font-family: "DM Sans", sans-serif;
+  color: rgb(113, 113, 113);
+  font-size: 18px;
+  line-height: 30px;
+}
+a:hover {
+  color: rgb(44, 44, 44);
+}
 .pitch {
   padding-top: 20px;
 }

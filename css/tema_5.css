@@ -31,6 +31,15 @@ li {
   font-size: 18px;
   line-height: 30px;
 }
+a {
+  font-family: "DM Sans", sans-serif;
+  color: rgb(113, 113, 113);
+  font-size: 18px;
+  line-height: 30px;
+}
+a:hover {
+  color: rgb(44, 44, 44);
+}
 .grid_1-1 a,
 .virksomhed a {
   color: rgb(78, 78, 78);
@@ -42,7 +51,6 @@ li {
 .virksomhed a:hover {
   color: rgb(44, 44, 44);
 }
-.videotekst,
 .kode_tekst {
   padding-top: 20px;
 }

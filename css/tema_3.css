@@ -52,14 +52,13 @@ li {
   padding-top: 40px;
   padding-bottom: 20px;
 }
-
-.grid_1-1 a {
+a {
   font-family: "DM Sans", sans-serif;
   color: rgb(113, 113, 113);
   font-size: 18px;
   line-height: 30px;
 }
-.grid_1-1 a:hover {
+a:hover {
   color: rgb(44, 44, 44);
 }
 .grid_1-1 li,
