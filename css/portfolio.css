@@ -7,7 +7,10 @@
   }
 }
 @media (max-width: 800px) {
-  .grid_1-1 {
+  .tema_3,
+  .tema_4,
+  .tema_5 {
+    padding-top: 60px;
   }
 }
 
