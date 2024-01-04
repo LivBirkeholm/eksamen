@@ -17,12 +17,33 @@ h1 {
 h2 {
   font-family: "Poppins", sans-serif;
   color: rgb(78, 78, 78);
+  padding-bottom: 20px;
 }
-p {
+h3 {
+  font-family: "Poppins", sans-serif;
+  color: rgb(78, 78, 78);
+  padding-bottom: 10px;
+}
+p,
+li {
   font-family: "DM Sans", sans-serif;
   color: rgb(113, 113, 113);
   font-size: 18px;
   line-height: 30px;
+}
+.grid_1-1 a,
+.virksomhed a {
+  color: rgb(78, 78, 78);
+  font-family: "DM Sans", sans-serif;
+  color: rgb(113, 113, 113);
+  font-size: 18px;
+}
+.grid_1-1 a:hover,
+.virksomhed a:hover {
+  color: rgb(44, 44, 44);
+}
+.videotekst {
+  padding-top: 20px;
 }
 
 @media (min-width: 800px) {
@@ -31,6 +52,7 @@ p {
     grid-template-columns: 1fr 1fr;
     gap: 50px;
     padding-top: 50px;
+    padding-bottom: 60px;
   }
 }
 @media (max-width: 800px) {
@@ -39,11 +61,16 @@ p {
     padding-top: 50px;
   }
 }
-.introtekst {
+.introtekst,
+.virksomhed,
+.test {
   border-style: solid;
   border: none;
   border-radius: 20px;
   background-color: white;
   padding: 35px;
+  text-align: center;
+}
+.lighthouse {
   text-align: center;
 }
