@@ -42,7 +42,8 @@ li {
 .virksomhed a:hover {
   color: rgb(44, 44, 44);
 }
-.videotekst {
+.videotekst,
+.kode {
   padding-top: 20px;
 }
 
