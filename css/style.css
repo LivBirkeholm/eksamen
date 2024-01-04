@@ -1,6 +1,4 @@
 * {
-  margin: 0;
-  padding: 0;
   box-sizing: border-box;
 }
 img,
@@ -11,6 +9,10 @@ video {
 }
 body {
   background-color: rgb(249, 247, 246);
+}
+main {
+  margin-left: 8%;
+  margin-right: 8%;
 }
 
 /*NAV*/

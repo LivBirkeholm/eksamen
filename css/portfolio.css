@@ -4,14 +4,10 @@
     grid-template-columns: 1fr 1fr;
     gap: 80px;
     padding-top: 30px;
-    padding-left: 10%;
-    padding-right: 10%;
   }
 }
 @media (max-width: 800px) {
   .grid_1-1 {
-    padding-left: 10%;
-    padding-right: 10%;
   }
 }
 
@@ -20,7 +16,7 @@
 .tema4_img,
 .tema5_img {
   border-style: solid;
-  border-color: white;
+  border: none;
   border-radius: 20px;
   background-color: white;
   padding: 25px;
