@@ -12,7 +12,7 @@ h1 {
   font-family: "Poppins", sans-serif;
   color: rgb(78, 78, 78);
   font-size: 40px;
-  padding-bottom: 40px;
+  padding-bottom: 50px;
 }
 h2 {
   font-family: "Poppins", sans-serif;
@@ -43,7 +43,7 @@ li {
   color: rgb(44, 44, 44);
 }
 .videotekst,
-.kode {
+.kode_tekst {
   padding-top: 20px;
 }
 
@@ -53,13 +53,33 @@ li {
     grid-template-columns: 1fr 1fr;
     gap: 50px;
     padding-top: 50px;
-    padding-bottom: 60px;
+    padding-bottom: 90px;
+  }
+  .sitemap1,
+  .styletile1,
+  .moodboard,
+  .styletile2,
+  .wireframes,
+  .premiere,
+  .kode {
+    padding-top: 60px;
   }
 }
 @media (max-width: 800px) {
   .grid_1-1 {
     gap: 50px;
     padding-top: 50px;
+    padding-bottom: 70px;
+  }
+  h2,
+  h3 {
+    padding-top: 30px;
+  }
+  img {
+    padding-top: 100px;
+  }
+  .wireframes_tekst {
+    padding-bottom: 100px;
   }
 }
 .introtekst,
@@ -74,4 +94,7 @@ li {
 }
 .lighthouse {
   text-align: center;
+}
+.wireframes_tekst {
+  padding-bottom: 100px;
 }
