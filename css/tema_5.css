@@ -40,19 +40,24 @@ a {
 a:hover {
   color: rgb(44, 44, 44);
 }
-.grid_1-1 a,
-.virksomhed a {
-  color: rgb(78, 78, 78);
-  font-family: "DM Sans", sans-serif;
-  color: rgb(113, 113, 113);
-  font-size: 18px;
-}
-.grid_1-1 a:hover,
-.virksomhed a:hover {
-  color: rgb(44, 44, 44);
-}
-.kode_tekst {
+
+.kode_tekst,
+.space {
   padding-top: 20px;
+}
+.introtekst,
+.virksomhed,
+.test {
+  border-style: solid;
+  border: none;
+  border-radius: 20px;
+  background-color: white;
+  padding: 35px;
+  text-align: center;
+}
+.research,
+.ideudvikling {
+  padding-top: 50px;
 }
 
 @media (min-width: 800px) {
@@ -63,14 +68,13 @@ a:hover {
     padding-top: 50px;
     padding-bottom: 90px;
   }
-  .sitemap1,
-  .styletile1,
+
   .moodboard,
   .styletile2,
   .wireframes,
-  .premiere,
-  .kode {
-    padding-top: 60px;
+  .kode,
+  .hifi {
+    padding-top: 30px;
   }
 }
 @media (max-width: 800px) {
@@ -84,25 +88,6 @@ a:hover {
     padding-top: 30px;
   }
   img {
-    padding-top: 100px;
+    padding-top: 50px;
   }
-  .wireframes_tekst {
-    padding-bottom: 100px;
-  }
-}
-.introtekst,
-.virksomhed,
-.test {
-  border-style: solid;
-  border: none;
-  border-radius: 20px;
-  background-color: white;
-  padding: 35px;
-  text-align: center;
-}
-.lighthouse {
-  text-align: center;
-}
-.wireframes_tekst {
-  padding-bottom: 100px;
 }

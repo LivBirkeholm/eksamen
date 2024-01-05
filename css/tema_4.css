@@ -44,10 +44,12 @@ h3 {
     padding-top: 20px;
   }
   .statemachine,
-  .javascript {
+  .javascript,
+  .spil {
     padding-top: 70px;
   }
-  .javascript_titel {
+  .javascript_titel,
+  .spil_titel {
     padding-top: 20px;
   }
 }

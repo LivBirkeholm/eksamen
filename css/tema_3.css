@@ -35,6 +35,23 @@ li {
   font-size: 18px;
   line-height: 35px;
 }
+a {
+  font-family: "DM Sans", sans-serif;
+  color: rgb(113, 113, 113);
+  font-size: 18px;
+  line-height: 30px;
+}
+a:hover {
+  color: rgb(44, 44, 44);
+}
+.introtekst {
+  border-style: solid;
+  border: none;
+  border-radius: 20px;
+  background-color: white;
+  padding: 35px;
+  text-align: center;
+}
 
 .mindmap,
 .moodboard,
@@ -52,31 +69,15 @@ li {
   padding-top: 40px;
   padding-bottom: 20px;
 }
-a {
-  font-family: "DM Sans", sans-serif;
-  color: rgb(113, 113, 113);
-  font-size: 18px;
-  line-height: 30px;
-}
-a:hover {
-  color: rgb(44, 44, 44);
-}
 .grid_1-1 li,
 .emne li {
   list-style: inside;
 }
+
 @media (min-width: 800px) {
   .grid_1-1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 30px;
   }
-}
-.introtekst {
-  border-style: solid;
-  border: none;
-  border-radius: 20px;
-  background-color: white;
-  padding: 35px;
-  text-align: center;
 }

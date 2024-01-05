@@ -7,6 +7,17 @@
 .tilbage a:hover {
   color: black;
 }
+.introtekst {
+  border-style: solid;
+  border: none;
+  border-radius: 20px;
+  background-color: white;
+  padding: 35px;
+  text-align: center;
+}
+.tekst {
+  padding-top: 40px;
+}
 h1 {
   text-align: center;
   font-family: "Poppins", sans-serif;
@@ -30,9 +41,6 @@ a {
 a:hover {
   color: rgb(44, 44, 44);
 }
-.tekst {
-  padding-top: 40px;
-}
 
 @media (min-width: 800px) {
   .grid_1-1 {
@@ -51,12 +59,4 @@ a:hover {
 .grid_1-1 img {
   padding-bottom: 50px;
   width: 90%;
-}
-.introtekst {
-  border-style: solid;
-  border: none;
-  border-radius: 20px;
-  background-color: white;
-  padding: 35px;
-  text-align: center;
 }
