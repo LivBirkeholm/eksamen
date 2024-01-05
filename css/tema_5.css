@@ -41,12 +41,10 @@ a:hover {
   color: rgb(44, 44, 44);
 }
 
-.kode_tekst,
 .space {
   padding-top: 20px;
 }
 .introtekst,
-.virksomhed,
 .test {
   border-style: solid;
   border: none;
