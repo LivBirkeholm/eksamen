@@ -80,6 +80,9 @@ span {
   color: rgb(113, 113, 113);
 }
 .analyse {
+  padding-top: 15px;
+}
+.titel {
   padding-top: 30px;
 }
 .diagrammer {
