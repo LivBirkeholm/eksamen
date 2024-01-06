@@ -18,15 +18,12 @@ h2 {
   font-family: "Poppins", sans-serif;
   color: rgb(78, 78, 78);
   padding-top: 70px;
+  padding-bottom: 15px;
   font-size: 30px;
 }
 h3 {
   font-family: "Poppins", sans-serif;
   color: rgb(78, 78, 78);
-}
-.titel {
-  padding-top: 30px;
-  padding-bottom: 20px;
 }
 p,
 li {
@@ -56,22 +53,18 @@ a:hover {
 .mindmap,
 .moodboard,
 .styletile,
-.storyboard,
-.wireframes,
-.prototype {
-  padding-top: 70px;
+.storyboard {
+  padding-top: 20px;
+  text-align: center;
 }
-.praesentation {
+.praesentation,
+.prototype {
   padding-top: 40px;
 }
 .observation,
 .interview {
   padding-top: 40px;
   padding-bottom: 20px;
-}
-.grid_1-1 li,
-.emne li {
-  list-style: inside;
 }
 
 @media (min-width: 800px) {
