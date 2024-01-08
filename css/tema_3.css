@@ -29,8 +29,8 @@ p,
 li {
   font-family: "DM Sans", sans-serif;
   color: rgb(113, 113, 113);
-  font-size: 18px;
-  line-height: 35px;
+  font-size: 17px;
+  line-height: 40px;
 }
 a {
   font-family: "DM Sans", sans-serif;
@@ -49,22 +49,14 @@ a:hover {
   padding: 35px;
   text-align: center;
 }
-
-.mindmap,
-.moodboard,
-.styletile,
-.storyboard {
-  padding-top: 20px;
+.research,
+.inspiration {
   text-align: center;
 }
+
 .praesentation,
 .prototype {
   padding-top: 40px;
-}
-.observation,
-.interview {
-  padding-top: 40px;
-  padding-bottom: 20px;
 }
 
 @media (min-width: 800px) {

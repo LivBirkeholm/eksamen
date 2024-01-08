@@ -36,10 +36,14 @@ a {
   font-family: "DM Sans", sans-serif;
   color: rgb(113, 113, 113);
   font-size: 18px;
-  line-height: 30px;
+  line-height: 40px;
 }
 a:hover {
   color: rgb(44, 44, 44);
+}
+.grid_1-1 img {
+  padding-bottom: 50px;
+  width: 90%;
 }
 
 @media (min-width: 800px) {
@@ -54,9 +58,4 @@ a:hover {
   .grid_1-1 {
     padding-top: 60px;
   }
-}
-
-.grid_1-1 img {
-  padding-bottom: 50px;
-  width: 90%;
 }

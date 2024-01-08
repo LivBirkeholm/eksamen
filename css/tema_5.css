@@ -29,7 +29,7 @@ li {
   font-family: "DM Sans", sans-serif;
   color: rgb(113, 113, 113);
   font-size: 18px;
-  line-height: 30px;
+  line-height: 40px;
 }
 a {
   font-family: "DM Sans", sans-serif;
@@ -54,8 +54,13 @@ a:hover {
   text-align: center;
 }
 .research,
-.ideudvikling {
+.ideudvikling,
+.site,
+.video {
   padding-top: 50px;
+}
+.ideudvikling {
+  padding-bottom: 50px;
 }
 
 @media (min-width: 800px) {
@@ -65,14 +70,6 @@ a:hover {
     gap: 50px;
     padding-top: 50px;
     padding-bottom: 90px;
-  }
-
-  .moodboard,
-  .styletile2,
-  .wireframes,
-  .kode,
-  .hifi {
-    padding-top: 30px;
   }
 }
 @media (max-width: 800px) {
