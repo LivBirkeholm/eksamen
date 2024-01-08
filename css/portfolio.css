@@ -24,18 +24,13 @@
   background-color: white;
   padding: 25px;
 }
-.tema_2,
-.tema_3,
-.tema_4,
-.tema_5 {
-  text-align: center;
-}
 .tema2_img:hover,
 .tema3_img:hover,
 .tema4_img:hover,
 .tema5_img:hover {
   transform: scale(1.05);
 }
+
 .tema_tekst {
   font-family: "DM Sans", sans-serif;
   font-size: 20px;
@@ -44,6 +39,7 @@
   text-decoration: none;
   padding-top: 15px;
   display: block;
+  text-align: center;
 }
 .tema_tekst:hover {
   color: black;

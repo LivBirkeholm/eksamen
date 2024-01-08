@@ -20,29 +20,6 @@ h3 {
   padding-bottom: 20px;
 }
 
-@media (min-width: 800px) {
-  .grid_1-1 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 70px;
-  }
-  .grid_1-1-1-1 {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 30px;
-  }
-}
-@media (max-width: 800px) {
-  h1 {
-    padding-top: 30px;
-  }
-  .grid_1-1-1-1 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 30px;
-  }
-}
-
 .grid_1-1 {
   padding-bottom: 70px;
 }
@@ -80,4 +57,27 @@ li {
 .stilling {
   font-family: "DM Sans", sans-serif;
   font-weight: 700;
+}
+
+@media (min-width: 800px) {
+  .grid_1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 70px;
+  }
+  .grid_1-1-1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+  }
+}
+@media (max-width: 800px) {
+  h1 {
+    padding-top: 30px;
+  }
+  .grid_1-1-1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+  }
 }

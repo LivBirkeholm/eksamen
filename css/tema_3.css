@@ -7,6 +7,7 @@
 .tilbage a:hover {
   color: black;
 }
+
 h1 {
   text-align: center;
   font-family: "Poppins", sans-serif;
@@ -25,8 +26,7 @@ h3 {
   font-family: "Poppins", sans-serif;
   color: rgb(78, 78, 78);
 }
-p,
-li {
+p {
   font-family: "DM Sans", sans-serif;
   color: rgb(113, 113, 113);
   font-size: 17px;
@@ -41,6 +41,7 @@ a {
 a:hover {
   color: rgb(44, 44, 44);
 }
+
 .introtekst {
   border-style: solid;
   border: none;
