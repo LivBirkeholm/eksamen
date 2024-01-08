@@ -39,6 +39,14 @@ a {
 a:hover {
   color: rgb(44, 44, 44);
 }
+.introtekst {
+  border-style: solid;
+  border: none;
+  border-radius: 20px;
+  background-color: white;
+  padding: 35px;
+  text-align: center;
+}
 
 @media (min-width: 800px) {
   .grid_1-1 {
@@ -58,15 +66,20 @@ a:hover {
     gap: 30px;
     padding-top: 30px;
   }
+  .state,
+  .java,
+  .spil {
+    padding-top: 50px;
+  }
 }
 @media (max-width: 800px) {
   .emne,
   .video {
     padding-top: 20px;
   }
-  .statemachine,
-  .javascript,
-  .spil {
+  .statemachine_img,
+  .javascript_img,
+  .spil_img {
     padding-top: 70px;
   }
   .javascript_titel,
@@ -87,21 +100,6 @@ span {
   padding-bottom: 30px;
   color: rgb(113, 113, 113);
 }
-.analyse {
-  padding-top: 15px;
-}
 .titel {
   padding-top: 30px;
-}
-.diagrammer {
-  padding-top: 50px;
-  gap: 60px;
-}
-.introtekst {
-  border-style: solid;
-  border: none;
-  border-radius: 20px;
-  background-color: white;
-  padding: 35px;
-  text-align: center;
 }
